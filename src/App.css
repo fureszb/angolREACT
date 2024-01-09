@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.d-flex ul{ 
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+.navbar > .container{
+  flex-direction: column;
+}
+.navbar-brand{
+  font-size: 40px !important;
+} 
+
+.d-flex ul li{
+  border: 1px solid #ffffff36;
+    padding: 0 15px;
+}
+
+nav{
+  margin-bottom: 50px;
+}
+
+.container{
+  text-align: center;
+}
